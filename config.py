@@ -16,7 +16,7 @@ DATABASE_NAME = os.environ.get("DATABASE_NAME", "GMDB")
 DATABASE_URL = os.getenv("DATABASE_URL", "mongodb+srv://srikanthnayak:srikanthnayak@cluster0.bdl1rjd.mongodb.net/?retryWrites=true&w=majority") 
 OWNER_ID =  int(os.environ.get("OWNER_ID", "5856362162")) 
 ADMINS.append(OWNER_ID) if OWNER_ID not in ADMINS else []
-ADMINS.append(Id Owned Id)
+ADMINS.append(Id Owned Id),
 #  Optionnal variables
 LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1001982224461")) 
 UPDATE_CHANNEL = os.environ.get("UPDATE_CHANNEL", "GeethaMovies") # For Force Subscription
