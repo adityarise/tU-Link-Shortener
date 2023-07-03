@@ -121,7 +121,7 @@ async def username_handler(bot, m: Message):
             await update_user_info(user_id, {"channel": ""})
             return await m.reply("Channel Successfully Removed")
         else:
-            username = cmd[1].strip().replace("@", "")
+            username = cmd[1].strip().replace("@", "t.me")
             await update_user_info(user_id, {"username": username})
             await m.reply(f"Channel updated successfully to {username}")
 
