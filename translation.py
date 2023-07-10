@@ -3,9 +3,9 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 
 START_MESSAGE = '''**Hello, {}
-I Am powerlinkz.in, Bulk Link Converter. I Can Convert Links Directly From Your powerlinkz Account,
+I Am tulinks.online, Bulk Link Converter. I Can Convert Links Directly From Your tulinks.online Account,
     
-1. Go To 👉 https://powerlinkz.in/member/tools/api  
+1. Go To 👉 https://tulinks.online/member/tools/api  
 2. Than Copy API Key
 3. Than Type /api than give a single space and than paste your API Key (see example to understand more...)**
 
@@ -18,13 +18,13 @@ Example:** `/api de303d5270f481aec928f39883da7b7f9a8812ac `
 **➕ Hit** 👉 /channel Command To Get Help About Adding your channel to bot.
 **➕ Hit** 👉 /footer To Get Help About Adding your Custom Footer to bot.
 
-If You Want Any **Other Shortner** Link Converter Bot Instead Of Powerlinkz than **contact** at 👉 @Banavath_Srikanth (all **shortners** support available.)
+If You Want Any **Other Shortner** Link Converter Bot Instead Of tulinks.online than **contact** at 👉 @harrypotter00009 (all **shortners** support available.)
 '''
 
 HELP_MESSAGE = '''**Hello, {}
-I Am powerLinkz, Bulk Link Converter Bot. I Can Convert Links Directly From Your powerLinkz Account,**
+I Am tulinks.online, Bulk Link Converter Bot. I Can Convert Links Directly From Your Tu Links Account,**
     
-1. Go To 👉 https://powerlinkz.in/member/tools/api  
+1. Go To 👉 https://tulinks.online/member/tools/api  
 2. Than **Copy API** Key
 3. Than Type **/api** than give a **single space** and than **paste** your **API** Key (**see example** to understand more...)
 
@@ -37,14 +37,14 @@ Example:** `/api de303d5270f481aec928f39883da7b7f9a8812ac `
 **➕ Hit** 👉 /channel Command To Get Help About Adding your channel to bot.
 **➕ Hit** 👉 /footer To Get Help About Adding your Custom Footer to bot.
 
-If You Want Any **Other Shortner** Link Converter Bot Instead Of ""Shortnerfly** than **contact** at 👉 @Banavath_Srikanth (all **shortners support** available.)**
+If You Want Any **Other Shortner** Link Converter Bot Instead Of ""Shortnerfly** than **contact** at 👉 @harrypotter00009 (all **shortners support** available.)**
 '''
 
 ABOUT_TEXT = '''**Hey! My name is @LinkShortenerBot. I am Shortener Link Converter Bot.**
 
 **⚡Features⚡**
 
-• I can **Convert any** links or posts to your **PowerLinkz** link / post. (Button Links Posts, Hidden links/Hyperlinks All Are Supported)
+• I can **Convert any** links or posts to your **tulinks** link / post. (Button Links Posts, Hidden links/Hyperlinks All Are Supported)
 
 • I Can **auto** add custom **footer text** to your every post. Hit 👉 /footer To know more...
 
@@ -56,7 +56,7 @@ ABOUT_TEXT = '''**Hey! My name is @LinkShortenerBot. I am Shortener Link Convert
 
 • **No** need to share **password or email** to convert links.**
 
- Anyone who want to use any **other shortner** instead of PowerLinkz than **contact** at 👉 @Banavath_Srikanth (all **shortners support** available.)
+ Anyone who want to use any **other shortner** instead of Tu links than **contact** at 👉 @harrypotter00009 (all **shortners support** available.)
 
 **Click On Custom Alias To Create Custom Link**
 '''
@@ -65,7 +65,7 @@ CUSTOM_ALIAS_MESSAGE = """For Custom Alias, `[link] | [custom_alias]`, Send in t
 
 This feature works only in private mode only
 
-Ex: https://t.me/GeethaMovies | PowerLinkz"""
+Ex: https://t.me/ajbackupp | tulinks"""
 
 
 ADMINS_MESSAGE = """
@@ -96,7 +96,7 @@ HELP_REPLY_MARKUP = InlineKeyboardMarkup([
 
 START_MESSAGE_REPLY_MARKUP  = InlineKeyboardMarkup([
     [
-        InlineKeyboardButton('Get Api', url=f'https://powerlinkz.in/member/tools/api')
+        InlineKeyboardButton('Get Api', url=f'https://tulinks.online/member/tools/api')
     ]
 ])
 
@@ -110,7 +110,7 @@ BACK_REPLY_MARKUP = InlineKeyboardMarkup([
 ])
 
 USER_ABOUT_MESSAGE = """
-- Website: [{base_site}](https://Powerlinkz.in/ref/rngharman)
+- Website: [{base_site}](https://tulinks.online/ref/aditya)
 
 - Site Link {base_site} Current Linked API: {shortener_api}
 
@@ -131,7 +131,7 @@ SHORTENER_API_MESSAGE = """To add or update your Shortner Website API,
             
 Ex: `/api de303d5270f481aec928f39883da7b7f9a8812ac `
 
-Get API From [{base_site}](https://Powerlinkz.in/ref/rngharman)
+Get API From [{base_site}](https://tulinks.online/ref/aditya)
 
 Current {base_site} API: `{shortener_api}`"""
 
@@ -154,13 +154,13 @@ USERNAME_TEXT = """**Hello Harman, I am shortnerfly.com, Bulk Link Converter Bot
 **🌟 Type** /channel (channel link or username)
 
 **example:**
-/channel @GeethaMovies
+/channel @ajbackupp
 Or
-/channel https://t.me/GeethaMovies
+/channel https://t.me/ajbackupp
 
 **🤘 Hit** 👉 /features To Know More Features Of This Bot.
 
-**- Message @Banavath_Srikanth For More Help -**"""
+**- Message @harrypotter00009 For More Help -**"""
 
 BANNER_IMAGE = """
 Usage: `/banner_image image_url` or reply to any Image with this command
@@ -169,7 +169,7 @@ This image will be automatically replaced with other images in the post
 
 To remove custom image, `/banner_image remove`
 
-Eg: `/banner_image https://telegra.ph/file/5e96340a91470256b387a.jpg`"""
+Eg: `/banner_image https://te.legra.ph/file/f799f09ceaecaaa10ef6d.jpg`"""
 
 
 BANNED_USER_TXT = """
